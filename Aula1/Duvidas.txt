@@ -1,1 +1,2 @@
 Exercício 5 -> Android 4.0, não aparece imagens?
+Exercício 9 -> Como setar valor negativo para o seekbar?

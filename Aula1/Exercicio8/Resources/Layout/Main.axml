@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número da Inscrição" />
+    <EditText
+        android:id="@+id/editNumero"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o número da sua inscrição" />
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome" />
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Aniversário" />
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a data do seu aniversário"
+        android:inputType="date" />
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço" />
+    <EditText
+        android:id="@+id/editEndereco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu endereço"
+        android:inputType="textMultiLine" />
+    <TextView
+        android:id="@+id/txtCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP" />
+    <EditText
+        android:id="@+id/editCep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu CEP"
+        android:inputType="textPostalAddress" />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar" />
+</LinearLayout>

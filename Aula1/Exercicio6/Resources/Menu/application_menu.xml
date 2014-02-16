@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/application_menu"
+        android:title="Formatos da lista" >
+    <!-- "file" submenu -->
+    <menu>
+      <item android:id="@+id/umaLinha"
+            android:title="Uma Linha" />
+      <item android:id="@+id/duasLinhasTitulo"
+            android:title="Duas Linhas com Título" />
+      <item android:id="@+id/duasLinhasIguais"
+            android:title="Duas Linhas iguais" />
+      <item android:id="@+id/comIcone"
+            android:title="Com Ícone" />
+      <item android:id="@+id/textoComCheck"
+            android:title="Check" />
+      <item android:id="@+id/textoComRadio"
+            android:title="Radio Button" />
+      <item android:id="@+id/textoComCheckBox"
+            android:title="Checkbox" />
+    </menu>
+  </item>
+</menu>
